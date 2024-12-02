@@ -15,32 +15,32 @@ function parseInput(input) {
     return [leftList, rightList];
 }
 
-// Calculate total distance between sorted lists
-function calculateTotalDistance(leftList, rightList) {
-    // Sort both lists in ascending order
-    const sortedLeft = [...leftList].sort((a, b) => a - b);
-    const sortedRight = [...rightList].sort((a, b) => a - b);
+// Calculate similarity score
+function calculateSimilarityScore(leftList, rightList) {
+    let totalScore = 0;
     
-    // Calculate sum of absolute differences between pairs
-    let totalDistance = 0;
-    for (let i = 0; i < sortedLeft.length; i++) {
-        totalDistance += Math.abs(sortedLeft[i] - sortedRight[i]);
+    // For each number in the left list...
+    for (let leftNum of leftList) {
+        // Count how many times it appears in the right list
+        const occurrences = rightList.filter(rightNum => rightNum === leftNum).length;
+        // Add to total score (number * occurrences)
+        totalScore += leftNum * occurrences;
     }
     
-    return totalDistance;
+    return totalScore;
 }
 
 // Main function to process input and get result
 function solve(input) {
     const [leftList, rightList] = parseInput(input);
-    return calculateTotalDistance(leftList, rightList);
+    return calculateSimilarityScore(leftList, rightList);
 }
 
-// Read input from file
+// Read input from file and solve
 try {
     const input = fs.readFileSync('input.txt', 'utf8');
     const result = solve(input);
-    console.log(`The total distance between the lists is: ${result}`);
+    console.log(`The similarity score between the lists is: ${result}`);
 } catch (err) {
     console.error('Error reading input file:', err);
 }
