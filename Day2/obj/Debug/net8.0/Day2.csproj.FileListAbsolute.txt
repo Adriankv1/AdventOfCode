@@ -1,0 +1,15 @@
+C:\Users\Adria\AdventOfCode\Day2\bin\Debug\net8.0\Day2.exe
+C:\Users\Adria\AdventOfCode\Day2\bin\Debug\net8.0\Day2.deps.json
+C:\Users\Adria\AdventOfCode\Day2\bin\Debug\net8.0\Day2.runtimeconfig.json
+C:\Users\Adria\AdventOfCode\Day2\bin\Debug\net8.0\Day2.dll
+C:\Users\Adria\AdventOfCode\Day2\bin\Debug\net8.0\Day2.pdb
+C:\Users\Adria\AdventOfCode\Day2\obj\Debug\net8.0\Day2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adria\AdventOfCode\Day2\obj\Debug\net8.0\Day2.AssemblyInfoInputs.cache
+C:\Users\Adria\AdventOfCode\Day2\obj\Debug\net8.0\Day2.AssemblyInfo.cs
+C:\Users\Adria\AdventOfCode\Day2\obj\Debug\net8.0\Day2.csproj.CoreCompileInputs.cache
+C:\Users\Adria\AdventOfCode\Day2\obj\Debug\net8.0\Day2.sourcelink.json
+C:\Users\Adria\AdventOfCode\Day2\obj\Debug\net8.0\Day2.dll
+C:\Users\Adria\AdventOfCode\Day2\obj\Debug\net8.0\refint\Day2.dll
+C:\Users\Adria\AdventOfCode\Day2\obj\Debug\net8.0\Day2.pdb
+C:\Users\Adria\AdventOfCode\Day2\obj\Debug\net8.0\Day2.genruntimeconfig.cache
+C:\Users\Adria\AdventOfCode\Day2\obj\Debug\net8.0\ref\Day2.dll
